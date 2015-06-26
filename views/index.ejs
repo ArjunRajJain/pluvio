@@ -1,15 +1,6 @@
 <!DOCTYPE html>
 <html>
-    <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-  ga('create', 'UA-56669630-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
   <head>
  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>  
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -33,7 +24,7 @@
 
     <meta name="viewport" content="width=device-width,  minimum-scale=1,  maximum-scale=1"/>
     <meta name="description" content="Pluvio is the umbrella upgraded."/>
-    <meta name="keywords" content="pluvio, umbrella, best, updgraded"/>
+    <meta name="keywords" content="pluvio, umbrella, best, updgraded, ultimate umbrella"/>
     <meta name="author" content="Arjun Raj Jain, Kevin Cruz, Tess Burns"/>
 
     <!-- Facebook sharing -->
@@ -107,7 +98,7 @@
         <div class="container">
             <div class="row"  >
                 <div class="col-sm-6 col-md-6  col-lg-6">
-                  <img src="/img/umbrella.png" class="img-responsive image_back" id="features1a_image" alt="img">
+                  <img src="/img/hydro.png" class="img-responsive image_back" id="features1a_image" alt="img">
                   <!-- <img src="/img/hydro.jpg" class="img-responsive image_front" id="features1b_image" alt="img"> -->
                 </div>
                 
@@ -179,11 +170,11 @@
     <section id="features_3">
         <div class="container">
             <div class="row"  >
-                <div class="col-sm-6 col-md-6  col-lg-6" id="features_3_content">
-                  <img src="/img/umbrella.png" class="img-responsive image_front" id="features3a_image" alt="img">
+                <div class="col-sm-6 col-md-6  col-lg-6" >
+                  <img src="/img/umbrella.png" class="img-responsive" id="features3a_image" alt="img">
                 </div>
                 
-                <div class="col-sm-6 col-md-6 col-lg-6" id="features_3_content">
+                <div class="col-sm-6 col-md-6 col-lg-6" id="features_3_content" style="padding-top:2em;">
                     <h2>Better Design</h2>
                     <p>The pluvio is self-conscious.</p> 
                     <div class="feature">
@@ -254,6 +245,7 @@
            
         </div>
     </section>
+    </script>
 
     <!-- JavaScript plugins comes here -->
     <script src="/js/jquery-2.0.3.min.js"></script>
@@ -265,5 +257,33 @@
     <script src="/js/waypoints.min.js"></script>
     <script src="/js/owl.carousel.min.js"></script>
     <script src="/js/nivo-lightbox.min.js"></script>
+    <script>
+      console.log(navigator.userAgent);
+      var isMobile = {
+          Android: function() {
+              return /Android/i.test(navigator.userAgent);
+          },
+          BlackBerry: function() {
+              return /BlackBerry/i.test(navigator.userAgent);
+          },
+          iOS: function() {
+              return /iPhone|iPad|iPod/i.test(navigator.userAgent);
+          },
+          Windows: function() {
+              return /IEMobile/i.test(navigator.userAgent);
+          },
+          any: function() {
+              return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Windows());
+          }
+      };
+
+     
+         // console.log(isMobile.Android());
+          console.log(isMobile.iOS());
+        if(isMobile.any()) {
+          console.log('ye');
+          $('#features_3_content').css("text-align","center");
+        }
+    </script>
   </body>
 </html>
