@@ -1,0 +1,61 @@
+@import url("//hello.myfonts.net/count/2bd5ab");
+@import url(http://fonts.googleapis.com/css?family=Slabo+27px);
+
+@font-face {
+  font-family: 'Bree Serif';
+  font-style: normal;
+  font-weight: 400;
+  src: url(http://fonts.gstatic.com/s/breeserif/v5/LQ7WLTaITDg4OSRuOZCps8DdSZkkecOE1hvV7ZHvhyU.ttf) format('truetype');
+}
+@font-face {font-family: 'AvenirLTStd-Book';
+  src: url('AvenirLTStd-Book.otf');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url(http://fonts.gstatic.com/s/montserrat/v6/zhcz-_WihjSQC0oHJ9TCYMDdSZkkecOE1hvV7ZHvhyU.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: url(http://fonts.gstatic.com/s/montserrat/v6/IQHow_FEYlDC4Gzy_m8fcsBaWKZ57bY3RXgXH6dOjZ0.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: url(http://fonts.gstatic.com/s/opensans/v10/DXI1ORHCpsQm3Vp6mXoaTZS3E-kSBmtLoNJPDtbj2Pk.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url(http://fonts.gstatic.com/s/opensans/v10/cJZKeOuBrn4kERxqtaUH3SZ2oysoEQEeKwjgmXLRnTc.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: url(http://fonts.gstatic.com/s/opensans/v10/k3k702ZOKiLJc3WVjuplzJS3E-kSBmtLoNJPDtbj2Pk.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 300;
+  src: url(http://fonts.gstatic.com/s/quicksand/v5/qhfoJiLu10kFjChCCTvGlJS3E-kSBmtLoNJPDtbj2Pk.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 400;
+  src: url(http://fonts.gstatic.com/s/quicksand/v5/sKd0EMYPAh5PYCRKSryvWyZ2oysoEQEeKwjgmXLRnTc.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Quicksand';
+  font-style: normal;
+  font-weight: 700;
+  src: url(http://fonts.gstatic.com/s/quicksand/v5/32nyIRHyCu6iqEka_hbKspS3E-kSBmtLoNJPDtbj2Pk.ttf) format('truetype');
+}

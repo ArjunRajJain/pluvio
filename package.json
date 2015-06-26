@@ -1,0 +1,29 @@
+{
+  "name": "website",
+  "version": "0.0.1",
+  "description": "website for Down to Chill",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.8.1",
+    "html": "^0.0.7",
+    "ejs": "^1.0.0",
+    "d3":"^3.4.11",
+    "mongodb":"^1.4.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+	  "start": "node app",
+    "test": "node app"
+  },
+  "keywords": [
+    "down",
+    "to",
+    "chill"
+  ],
+  "author": "Matt Wojo",
+  "license": "n/a",
+  "bugs": {
+    "url": "https://github.com/DiscoverMeteor/Microscope/issues"
+  },
+  "homepage": "https://github.com/DiscoverMeteor/Microscope"
+}

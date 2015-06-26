@@ -1,0 +1,152 @@
+@charset "utf-8"
+
+
+@import url(./font.css);
+@import url(./footer.css);
+
+
+body {
+  margin: 0;
+  font-size: 20px;  
+  font-family: 'Quicksand', sans-serif;
+  line-height:30px;
+  color:#fff;
+  background-color: #fff;
+}
+a {
+  text-decoration: none;
+  background: transparent;
+  color: black;
+}
+a:active, a:hover {
+  outline: 0;
+}
+a:hover {
+  text-decoration: none;  
+}
+p {
+  margin: 0 0 10px;
+  font-size: 16px;
+  font-family: 'Quicksand', sans-serif;
+  font-style: italic;
+}
+h1 {font-size:24px;}
+h2 {font-size:22px;}
+h1, h2 {
+  font-weight: 400;
+  line-height: 1.1;
+  margin: 0;  
+  color: inherit;
+}
+ul, ol {
+  margin: 0;
+}
+ul li {
+  list-style: none;
+}
+img{
+  border: 0;
+  max-width: 100%;
+  vertical-align: middle;
+}
+.clearfix{
+  width:1px;
+  height:1px; 
+  display:block;
+  clear:both;
+  content:" , ";
+}
+.container{
+  position: relative;
+  width: 70%;
+  margin: auto;
+}
+.center{
+  text-align: center;
+  vertical-align: middle;
+}
+.divider_dark{
+  border: 1px solid #fff;
+  margin-top: 35.5px;
+  margin-bottom: 50px;
+}
+a:hover,
+.social_icon.footer ul li a i:hover,
+.ch-info h2 {
+  color: #5DA8C2;
+}
+.color{
+  background-color: #5DA8C2;
+}
+.article {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.title {
+  color:black;
+  float: left;
+  width: 474px;
+  font-weight: 600;
+  display:block;
+  font-family: 'Ariel',sans-serif;
+  letter-spacing: -0.5px;
+}
+.image {
+  height:110px;
+}
+.image img {
+  width: auto;
+  max-width: 200px;
+  height: 110px;
+  float:left;
+  margin-right: 20px;
+}
+.synopsis {
+  line-height: 150%;
+  font-size:70%;
+  font-family: sans-serif;
+  max-height:110px;
+  color: #993366;
+}
+.link {
+  display:block;
+  overflow:hidden;
+  margin-bottom:40px;
+}
+.article:hover {
+  background-color: #e3e3e3; 
+}
+.greydout {
+  -webkit-opacity: 0.0;
+  -moz-opacity: 0.0;
+  opacity: 0.0;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+  float:left;
+  position:absolute;
+  padding-top: 4.5%;
+  padding-left: 11.5%;
+}
+.greydout:hover {
+  	-webkit-opacity: 1;
+  	-moz-opacity: 1;
+  	opacity: 1; 	
+}
+.link:hover .greydout {
+  -webkit-opacity: 1;
+	-moz-opacity: 1;
+	opacity: 1;
+}
+.tx {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900; 
+  font-size: 1.5em;
+  color: #000000;
+  position: absolute;
+  padding-top: 4.5%;
+  padding-left: 11.5%;
+}

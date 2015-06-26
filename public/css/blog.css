@@ -1,0 +1,11 @@
+
+@import url(./font.css);
+@import url(./footer.css);
+
+body {
+	margin: 0px;
+}
+
+#navbar .header-navigation {
+	visibility: hidden;
+}
