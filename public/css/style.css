@@ -252,9 +252,6 @@ hr {
 }
 
 .spinner > div {
-  width: 18px;
-  height: 18px;
-  border-radius: 100%;
   display: inline-block;
   -webkit-animation: bouncedelay 1.4s infinite ease-in-out;
   animation: bouncedelay 1.4s infinite ease-in-out;
@@ -468,7 +465,7 @@ hr {
     margin:0px;
     padding-top:3.25rem;
     padding-bottom:3.25rem;
-    background:#66ccff;
+    background:black;
     position:relative;
     display:block;
     z-index:20;

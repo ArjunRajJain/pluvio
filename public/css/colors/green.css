@@ -11,7 +11,7 @@ body {
     font-color:#66ccff;
 }
 #footer {
-    background-color: #66ccff;
+    background-color: black;
 }
 h1{
     color:#66ccff;
@@ -50,7 +50,14 @@ h3{
 }
 
 .spinner > div{
-    background-color: #66ccff;
+    background-color: black;
+  width: 50px;
+  height: 50px;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+  border-top-left-radius: 50%;
+  -webkit-transform:rotate(-90deg);
+  z-index: 99;
 }
 
 

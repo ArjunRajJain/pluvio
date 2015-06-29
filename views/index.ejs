@@ -133,7 +133,7 @@
             <div class="row">
                 
                 <div class="col-sm-6 col-md-6 col-lg-6" id="features_2_content">
-                    <h2>Impossible to Lose Impossible to Forgot</h2>
+                    <h2>Impossible to Lose Impossible to Forget</h2>
                     <p> The pluvio has attachment issues...especially on rainy days.</p>
                     <div class="feature">
                         <svg viewBox="0 0 32 32" class="feature_icon">
@@ -157,8 +157,8 @@
                 
                 
                 <div class="col-sm-6 col-md-6  col-lg-6" >
-                    <img src="/img/ibeacon.svg" class="img-responsive image_back" id="features2a_image" alt="img">
-                    <img src="/img/pluvio.png" class="img-responsive image_front" id="features2b_image" alt="img">
+                    <img src="/img/found.png" style='margin: 0 auto' class="img-responsive image_back" id="features2a_image" alt="img">
+                    <!-- <img src="/img/rain.png" class="img-responsive image_front" id="features2b_image" alt="img"> -->
                 </div>
 
             </div>
@@ -170,8 +170,8 @@
     <section id="features_3">
         <div class="container">
             <div class="row"  >
-                <div class="col-sm-6 col-md-6  col-lg-6" >
-                  <img src="/img/umbrella.png" class="img-responsive" id="features3a_image" alt="img">
+                
+                <div id='first'>
                 </div>
                 
                 <div class="col-sm-6 col-md-6 col-lg-6" id="features_3_content" style="padding-top:2em;">
@@ -191,7 +191,7 @@
                             <use xlink:href="#rotate"></use></svg>
                         <div>
                             <h4>Easy to Open/Close</h4>
-                            <p>The pluvio takes one click to open, and one to close.</p>
+                            <p>The pluvio takes one click to open, and two swipes to close. No more fumbling with that ridiculous velcro.</p>
                         </div>
                     </div>
 
@@ -203,6 +203,8 @@
                             <p>The pluvio wants to be held, and you will want to hold it.</p>
                         </div>
                     </div>
+                </div>
+                <div id='second'>
                 </div>
                 
             </div>
@@ -222,7 +224,7 @@
                 <div class="col-sm-6 col-sm-offset-3 col-md-6 col-md-offset-3 col-lg-6 col-lg-offset-3" >
                     
                     <h2>Pluvio</h2>
-                    <h5>The Ultimate Umbrella </h5>
+                    <h5>The Ultimate Umbrella - Only $42.95 </h5>
                     <!-- <a href="https://appsto.re/us/vKsm2.i" class="cta1" id="button_more"><img style="height:40px"src="http://dtozmh1cq40e6.cloudfront.net/public/apple.svg"/> iOS</a>
                  <a href="https://play.google.com/store/apps/details?id=com.downtochill.dtc&hl=en" class="cta2" id="button_download"><img style="height:40px"src="http://dtozmh1cq40e6.cloudfront.net/public/android.svg"/> Android</a>                
                 </div> -->
@@ -283,6 +285,10 @@
         if(isMobile.any()) {
           console.log('ye');
           $('#features_3_content').css("text-align","center");
+          $("#second").append('<div class="col-sm-6 col-md-6  col-lg-6" ><img src="/img/umbrella.png" class="img-responsive" id="features3a_image" alt="img"></div>');
+        }
+        else {
+          $("#first").append('<div class="col-sm-6 col-md-6  col-lg-6" ><img src="/img/umbrella.png" class="img-responsive" id="features3a_image" alt="img"></div>');
         }
     </script>
   </body>
